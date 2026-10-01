@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-label="Profile photo placeholder">
+  <rect width="360" height="360" fill="#142019"/>
+  <g stroke="#22352c" stroke-width="1">
+    <path d="M0 60H360M0 120H360M0 180H360M0 240H360M0 300H360M60 0V360M120 0V360M180 0V360M240 0V360M300 0V360"/>
+  </g>
+  <g fill="none" stroke="#3fd6a4" stroke-width="2" opacity=".5">
+    <path d="M20 40h60l20 20v40M340 320h-60l-20-20v-40M40 340v-40l20-20h40"/>
+  </g>
+  <circle cx="100" cy="100" r="5" fill="#e3a75d"/><circle cx="260" cy="260" r="5" fill="#e3a75d"/><circle cx="100" cy="280" r="5" fill="#e3a75d"/>
+  <circle cx="180" cy="150" r="52" fill="#1a2921" stroke="#2f4a3d" stroke-width="3"/>
+  <path d="M90 300c0-50 40-80 90-80s90 30 90 80" fill="#1a2921" stroke="#2f4a3d" stroke-width="3"/>
+  <text x="180" y="335" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#94a89d">replace with your photo</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Cortex-M4 task scheduler diagram placeholder">
+  <rect width="640" height="360" fill="#0b1210"/>
+  <g stroke="#1a2921" stroke-width="1">
+    <path d="M40 0V360"/><path d="M80 0V360"/><path d="M120 0V360"/><path d="M160 0V360"/><path d="M200 0V360"/><path d="M240 0V360"/><path d="M280 0V360"/><path d="M320 0V360"/><path d="M360 0V360"/><path d="M400 0V360"/><path d="M440 0V360"/><path d="M480 0V360"/><path d="M520 0V360"/><path d="M560 0V360"/><path d="M600 0V360"/>
+    <path d="M0 40H640"/><path d="M0 80H640"/><path d="M0 120H640"/><path d="M0 160H640"/><path d="M0 200H640"/><path d="M0 240H640"/><path d="M0 280H640"/><path d="M0 320H640"/>
+  </g>
+  <!-- central MCU -->
+  <rect x="250" y="130" width="140" height="100" rx="6" fill="#142019" stroke="#e3a75d" stroke-width="2"/>
+  <text x="320" y="174" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="16" fill="#e6ede8">Cortex-M4</text>
+  <text x="320" y="196" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a89d">SysTick · PendSV</text>
+  <!-- peripheral blocks -->
+  <g font-family="JetBrains Mono, monospace" font-size="12" fill="#e6ede8" text-anchor="middle">
+    <rect x="60" y="60" width="120" height="44" rx="4" fill="#142019" stroke="#2f4a3d"/><text x="120" y="87">Task A (TCB)</text>
+    <rect x="60" y="256" width="120" height="44" rx="4" fill="#142019" stroke="#2f4a3d"/><text x="120" y="283">Task B (TCB)</text>
+    <rect x="460" y="60" width="120" height="44" rx="4" fill="#142019" stroke="#2f4a3d"/><text x="520" y="87">NVIC</text>
+    <rect x="460" y="256" width="120" height="44" rx="4" fill="#142019" stroke="#2f4a3d"/><text x="520" y="283">Stacks</text>
+  </g>
+  <!-- traces -->
+  <g fill="none" stroke="#3fd6a4" stroke-width="2" opacity=".85">
+    <path d="M180 82h40l30 48h0"/><path d="M180 278h40l30-48h0"/><path d="M460 82h-40l-30 48"/><path d="M460 278h-40l-30-48"/>
+  </g>
+  <g fill="#e3a75d"><circle cx="250" cy="130" r="4"/><circle cx="250" cy="230" r="4"/><circle cx="390" cy="130" r="4"/><circle cx="390" cy="230" r="4"/></g>
+  <text x="320" y="340" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a89d">placeholder — swap for a photo or block diagram</text>
+</svg>
