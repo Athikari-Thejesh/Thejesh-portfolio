@@ -32,12 +32,12 @@ python3 -m http.server 8000
 - **Text**: everything is plain HTML in `index.html`; sections are marked with `<!-- ===== NAME ===== -->` comments.
 - **Colours / fonts**: edit the tokens at the top of `css/style.css`.
 
-## Contact form
+ Contact form :-
 
 - **Netlify**: works out of the box. The form has `data-netlify="true"`; submissions appear under Site → Forms.
 - **Vercel / GitHub Pages / anywhere else**: there is no backend, so the script falls back to opening the visitor's mail app with the message pre-filled. To get real submissions, point the form's `action` at a service such as Formspree or Basin and it will POST there instead.
 
-## Deploy
+ Deploy :-
 
 **GitHub Pages**: push this folder to a repo, then Settings → Pages → Source: `main` / root. The site is static, so no workflow is needed.
 
